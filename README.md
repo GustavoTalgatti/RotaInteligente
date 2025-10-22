@@ -56,24 +56,20 @@ As visualizações do grafo e do modelo de solução são geradas dinamicamente 
 
 1.  **Representação da Cidade (Grafo Inicial):** Mostra a grade 10x10 com nós (cruzamentos) e arestas (ruas, incluindo diagonais, com pesos variáveis).
     *Exemplo:*
-    ```
-    (Execução da Célula 4 do notebook)
-    ```
+    <img width="1220" height="845" alt="img1" src="https://github.com/user-attachments/assets/8fbe344b-0e8a-4638-b4cf-c2f84306a2eb" />
+    
     2.  **Mapa de Entregas:** Apresenta o grafo base com o nó do depósito ("Sabor Express") destacado e os 15 nós de entrega aleatórios marcados.
     *Exemplo:*
-    ```
-    (Execução da Célula 6 do notebook)
-    ```
+    <img width="1469" height="944" alt="img2" src="https://github.com/user-attachments/assets/22756249-9504-4d20-8dd2-f3c795889720" />
+
     3.  **Agrupamento por Zona (K-Means):** Ilustra os pontos de entrega coloridos de acordo com o cluster ao qual foram atribuídos pelo K-Means.
     *Exemplo:*
-    ```
-    (Execução da Célula 8 do notebook)
-    ```
+    <img width="1469" height="944" alt="img3" src="https://github.com/user-attachments/assets/ff2f7cb0-67dc-4da2-88df-d4818a914847" />
+
     4.  **Rotas Otimizadas Finais:** O diagrama mais importante, mostrando as rotas calculadas para cada cluster, partindo e retornando ao depósito. As setas indicam a direção do percurso e os rótulos nas arestas mostram as distâncias em km (que agora variam aleatoriamente).
     *Exemplo:*
-    ```
-    (Execução da Célula 12 do notebook)
-    ```
+    <img width="1515" height="898" alt="img4" src="https://github.com/user-attachments/assets/a106753f-1300-4f3c-b91d-decb9d903518" />
+
     *Nota: Como os pontos de entrega e os pesos das arestas são gerados aleatoriamente, os diagramas exatos podem variar a cada execução do notebook.*
 
 ## 5. Análise dos Resultados, Eficiência da Solução, Limitações e Sugestões de Melhoria
